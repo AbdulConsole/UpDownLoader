@@ -9,7 +9,7 @@
 
 <?php
 
-	$uploaddir = 'C:\xampp\htdocs\telco\uploads\\';
+	$uploaddir = 'C:\xampp\htdocs\UpDownLoader\uploads\\';
 	$uploadfile = $uploaddir . $_FILES['Filedata']['name'];
 
 
@@ -21,6 +21,6 @@
 	}
 
 ?> 
-<a href="upload.php">Upload</a> <a href="./uploads">View</a>
+<a href="upload.php">Upload</a> <a href="./Uploads">View</a>
 </body>
 </html>
